@@ -10,7 +10,9 @@ nav{
     background-color:rgb(142, 255, 142); /* Change this to your desired background color */
     color: #636363; /* Change this to your desired text color */
   }
-
+button{
+  outline: none;
+}
   /* From Uiverse.io by vinodjangid07 */ 
 .Btn {
     width: 45px;
