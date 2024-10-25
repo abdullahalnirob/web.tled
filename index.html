@@ -5,7 +5,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8" />
-    <link rel="icon" href="./favicon.jpg" type="image.jpg">
+    <link rel="icon" href="./favicon.jpg" type="image.jpg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,18 +13,20 @@
       rel="stylesheet"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tled | Gaming Company</title>
+    <title>Tled</title>
     <link rel="stylesheet" href="style.css" />
     <nav
       class="bg-white shadow fixed top-0 left-0 right-0 flex justify-between md:items-center py-4 px-10"
     >
       <div class="w-10 flex items-center">
-        <img src="./tled.png" alt="" class="w-full mx-1"><span class="text-2xl">TLED</span>
+        <img src="./tled.png" alt="" class="w-full mx-1" /><span
+          class="text-2xl"
+          >TLED</span
+        >
       </div>
       <div class="md:hidden">
         <svg
-        class="icon"
-        
+          class="icon"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           width="24"
@@ -58,11 +60,32 @@
       <ul
         class="flex menu flex-col md:flex-row fixed md:relative -top-[500px] md:top-0 bg-white md:bg-transparent py-5 md:py-0 left-0 right-0 px-10 md:px-0 space-y-6 md:space-y-0 md:items-center md:space-x-10"
       >
-        <li class="cursor-pointer hover:text-green-600 active:scale-90 select-none duration-300">Home</li>
-        <li class="cursor-pointer hover:text-green-600 active:scale-90 select-none duration-300">Project</li>
-        <li class="cursor-pointer hover:text-green-600 active:scale-90 select-none duration-300">Team</li>
-        <li class="cursor-pointer hover:text-green-600 active:scale-90 select-none duration-300">Contact</li>
-        <li  class="bg-transparent">
+        <li
+          class="cursor-pointer hover:text-green-600 active:scale-90 select-none duration-300"
+        >
+          <a href="#home">Home</a>
+        </li>
+        <li
+          class="cursor-pointer hover:text-green-600 active:scale-90 select-none duration-300"
+        >
+          <a href="#technologys">Technologys</a>
+        </li>
+        <li
+          class="cursor-pointer hover:text-green-600 active:scale-90 select-none duration-300"
+        >
+          Project
+        </li>
+        <li
+          class="cursor-pointer hover:text-green-600 active:scale-90 select-none duration-300"
+        >
+          Team
+        </li>
+        <li
+          class="cursor-pointer hover:text-green-600 active:scale-90 select-none duration-300"
+        >
+          Contact
+        </li>
+        <li class="bg-transparent">
           <button class="Btn">
             <span class="svgContainer">
               <svg fill="white" viewBox="0 0 496 512" height="1.6em">
@@ -78,45 +101,126 @@
     </nav>
   </head>
   <body class="bg-gray-100 mt-20">
-    <section id="home">
-      <div class="flex flex-col md:flex-row justify-between items-center md:mx-20 mt-10">
+    <section class="my-20" id="home">
+      <div
+        class="flex flex-col md:flex-row justify-between items-center md:mx-20 mt-10"
+      >
         <img
           data-aos="fade-right"
           data-aos-duration="1500"
           src="./Gaming-bro.svg"
           class="w-4/6 md:w-2/6"
         />
-        <div class="px-4 md:px-0 md:w-1/2">
+        <div class="px-7 md:px-0 md:w-1/2">
           <h1
             data-aos="fade-up"
             data-aos-duration="1000"
             class="text-5xl md:text-6xl text-[#202020]"
           >
-            Level Up Your Gaming Experience with Tled
+            Transforming Ideas into Digital Reality
           </h1>
           <p
             data-aos="fade-up"
             data-aos-duration="1500"
-            class="md:text-xl my-2 text-green-700"
+            class="my-2 text-green-700"
           >
-            Explore the Latest Games, Reviews, and Gaming News – All in One
-            Place.
+            At Tled, we craft innovative web experiences, advanced software
+            solutions, and immersive games that engage and inspire. From concept
+            to execution, we turn your ideas into powerful digital assets.
           </p>
-          <div data-aos="fade-up" class="flex  items-center" data-aos-duration="2000">
+          <div
+            data-aos="fade-up"
+            class="flex items-center"
+            data-aos-duration="2000"
+          >
             <button
               class="bg-green-500 mx-2 px-5 py-2 rounded-lg text-white hover:bg-green-600 active:scale-90 duration-500"
             >
               <span class="btn-shine">Join the Adventure</span>
             </button>
-            <button
-              class="bg-gray-200 px-5 py-2 rounded-lg text-[#222] hover:bg-gray-300 ring-1 ring-[#ccc] active:scale-90 duration-500"
-            >
-              <span class="btn-shine flex items-center">Get Start
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#0f0f0f" fill="none">
-                  <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-              </svg>
-              </span>
-            </button>
+            <a href="#technologys">
+              <button
+                class="bg-gray-200 px-5 py-2 rounded-lg text-[#222] hover:bg-gray-300 ring-1 ring-[#ccc] active:scale-90 duration-500"
+              >
+                <span class="btn-shine flex items-center"
+                  >Get Start
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                    color="#0f0f0f"
+                    fill="none"
+                  >
+                    <path
+                      d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="my-44 md:my-36" id="technologys">
+      <center>
+        <h1 class="text-3xl md:text-5xl">Technologies We Use_</h1>
+        <p class="text-green-700 text-center px-8 my-10 md:px-40">
+          At Tled, we leverage industry-leading technologies to build responsive
+          websites, innovative software, and engaging games. Here’s a look at
+          some of the powerful tools and frameworks we use:
+        </p>
+      </center>
+      <div
+        class="container flex flex-col md:flex-row gap-20 md:gap-28 items-center justify-center"
+      >
+        <div class="flex gap-20 md:gap-28">
+          <div>
+            <img
+              src="./Lan/c-.png"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              alt="C++"
+              class="w-24 my-2"
+            />
+            <h1 class="text-center mt-3">C++</h1>
+          </div>
+          <div>
+            <img
+              src="./Lan/C_.webp"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              alt="C"
+              class="w-20 my-2"
+            />
+            <h1 class="text-center mt-3">C</h1>
+          </div>
+        </div>
+        <div class="flex gap-20 md:gap-28">
+          <div>
+            <img
+              src="./Lan/python.png"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              alt="python"
+              class="w-24 my-2"
+            />
+            <h1 class="text-center mt-3">Python</h1>
+          </div>
+          <div>
+            <img
+              src="./Lan/js.png"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              alt="javascript"
+              class="w-20 my-2"
+            />
+            <h1 class="text-center mt-3">JavaScript</h1>
           </div>
         </div>
       </div>
